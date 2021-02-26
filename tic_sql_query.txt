@@ -1,0 +1,573 @@
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC231836962
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 5911) AND (tic.Teff - 2 * tic.e_Teff < 5949.0)) OR ((tic.Teff < 5911) AND (tic.Teff + 2 * tic.e_Teff > 5873.0)))) AND ((((tic.Tmag > 6.7568) AND (tic.Tmag - 2 * tic.e_Tmag < 6.7688)) OR ((tic.Tmag < 6.7568) AND (tic.Tmag + 2 * tic.e_Tmag > 6.744800000000001)))) AND ((((tic.logg > 4.39) AND (tic.logg - 2 * tic.e_logg < 4.449999999999999)) OR ((tic.logg < 4.39) AND (tic.logg + 2 * tic.e_logg > 4.33)))) AND ((((tic.rad > 1.11) AND (tic.rad - 2 * tic.e_rad < 1.1900000000000002)) OR ((tic.rad < 1.11) AND (tic.rad + 2 * tic.e_rad > 1.03)))) AND ((((tic.mass > 1.06) AND (tic.mass - 2 * tic.e_mass < 1.1600000000000001)) OR ((tic.mass < 1.06) AND (tic.mass + 2 * tic.e_mass > 0.9600000000000001))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC144503312
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 5256) AND (tic.Teff - 2 * tic.e_Teff < 5314.0)) OR ((tic.Teff < 5256) AND (tic.Teff + 2 * tic.e_Teff > 5198.0)))) AND ((((tic.Tmag > 7.7242) AND (tic.Tmag - 2 * tic.e_Tmag < 7.736199999999999)) OR ((tic.Tmag < 7.7242) AND (tic.Tmag + 2 * tic.e_Tmag > 7.7122)))) AND ((((tic.logg > 4.37) AND (tic.logg - 2 * tic.e_logg < 4.47)) OR ((tic.logg < 4.37) AND (tic.logg + 2 * tic.e_logg > 4.2700000000000005)))) AND ( AND ((((tic.mass > 4.37) AND (tic.mass - 2 * tic.e_mass < 4.47)) OR ((tic.mass < 4.37) AND (tic.mass + 2 * tic.e_mass > 4.37))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC188768068
+WHERE (tic.objType = STAR) AND ( AND ((((tic.Tmag > 5.8961) AND (tic.Tmag - 2 * tic.e_Tmag < 5.908099999999999)) OR ((tic.Tmag < 5.8961) AND (tic.Tmag + 2 * tic.e_Tmag > 5.8841)))) AND ( AND ((((tic.rad > 1.21) AND (tic.rad - 2 * tic.e_rad < 1.27)) OR ((tic.rad < 1.21) AND (tic.rad + 2 * tic.e_rad > 1.05)))) AND ((((tic.mass > 1.08) AND (tic.mass - 2 * tic.e_mass < 1.28)) OR ((tic.mass < 1.08) AND (tic.mass + 2 * tic.e_mass > 0.8800000000000001))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC188768068
+WHERE (tic.objType = STAR) AND ( AND ((((tic.Tmag > 5.8961) AND (tic.Tmag - 2 * tic.e_Tmag < 5.908099999999999)) OR ((tic.Tmag < 5.8961) AND (tic.Tmag + 2 * tic.e_Tmag > 5.8841)))) AND ( AND ((((tic.rad > 1.21) AND (tic.rad - 2 * tic.e_rad < 1.27)) OR ((tic.rad < 1.21) AND (tic.rad + 2 * tic.e_rad > 1.05)))) AND ((((tic.mass > 1.08) AND (tic.mass - 2 * tic.e_mass < 1.28)) OR ((tic.mass < 1.08) AND (tic.mass + 2 * tic.e_mass > 0.8800000000000001))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC374859347
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 4956) AND (tic.Teff - 2 * tic.e_Teff < 5056.0)) OR ((tic.Teff < 4956) AND (tic.Teff + 2 * tic.e_Teff > 4856.0)))) AND ((((tic.Tmag > 6.2473) AND (tic.Tmag - 2 * tic.e_Tmag < 6.2593)) OR ((tic.Tmag < 6.2473) AND (tic.Tmag + 2 * tic.e_Tmag > 6.2353000000000005)))) AND ((((tic.logg > 4.47) AND (tic.logg - 2 * tic.e_logg < 4.79)) OR ((tic.logg < 4.47) AND (tic.logg + 2 * tic.e_logg > 4.1499999999999995)))) AND ((((tic.rad > 0.72) AND (tic.rad - 2 * tic.e_rad < 0.84)) OR ((tic.rad < 0.72) AND (tic.rad + 2 * tic.e_rad > 0.62)))) AND ((((tic.mass > 0.77) AND (tic.mass - 2 * tic.e_mass < 0.87)) OR ((tic.mass < 0.77) AND (tic.mass + 2 * tic.e_mass > 0.67))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC188580272
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 3271) AND (tic.Teff - 2 * tic.e_Teff < 3585.0)) OR ((tic.Teff < 3271) AND (tic.Teff + 2 * tic.e_Teff > 2957.0)))) AND ((((tic.Tmag > 7.57703) AND (tic.Tmag - 2 * tic.e_Tmag < 7.5919148)) OR ((tic.Tmag < 7.57703) AND (tic.Tmag + 2 * tic.e_Tmag > 7.5621452)))) AND ((((tic.logg > 4.87) AND (tic.logg - 2 * tic.e_logg < 4.87)) OR ((tic.logg < 4.87) AND (tic.logg + 2 * tic.e_logg > 4.87)))) AND ((((tic.rad > 4.87) AND (tic.rad - 2 * tic.e_rad < 4.87)) OR ((tic.rad < 4.87) AND (tic.rad + 2 * tic.e_rad > 4.87)))) AND ((((tic.mass > 0.32) AND (tic.mass - 2 * tic.e_mass < 0.38)) OR ((tic.mass < 0.32) AND (tic.mass + 2 * tic.e_mass > 0.26))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC251042502
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 4935) AND (tic.Teff - 2 * tic.e_Teff < 5087.0)) OR ((tic.Teff < 4935) AND (tic.Teff + 2 * tic.e_Teff > 4783.0)))) AND ((((tic.Tmag > 7.204) AND (tic.Tmag - 2 * tic.e_Tmag < 7.215999999999999)) OR ((tic.Tmag < 7.204) AND (tic.Tmag + 2 * tic.e_Tmag > 7.192)))) AND ((((tic.logg > 7.204) AND (tic.logg - 2 * tic.e_logg < 7.215999999999999)) OR ((tic.logg < 7.204) AND (tic.logg + 2 * tic.e_logg > 7.204)))) AND ((((tic.rad > 0.73) AND (tic.rad - 2 * tic.e_rad < 0.77)) OR ((tic.rad < 0.73) AND (tic.rad + 2 * tic.e_rad > 0.69)))) AND ((((tic.mass > 0.77) AND (tic.mass - 2 * tic.e_mass < 0.79)) OR ((tic.mass < 0.77) AND (tic.mass + 2 * tic.e_mass > 0.75))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC369021303
+WHERE (tic.objType = STAR) AND ( AND ((((tic.Tmag > 7.90696) AND (tic.Tmag - 2 * tic.e_Tmag < 7.921831)) OR ((tic.Tmag < 7.90696) AND (tic.Tmag + 2 * tic.e_Tmag > 7.8920889999999995)))) AND ( AND ( AND ((((tic.mass > 0.71) AND (tic.mass - 2 * tic.e_mass < 0.7899999999999999)) OR ((tic.mass < 0.71) AND (tic.mass + 2 * tic.e_mass > 0.63))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC66560666
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 6196) AND (tic.Teff - 2 * tic.e_Teff < 6254.0)) OR ((tic.Teff < 6196) AND (tic.Teff + 2 * tic.e_Teff > 6138.0)))) AND ((((tic.Tmag > 7.4742) AND (tic.Tmag - 2 * tic.e_Tmag < 7.486199999999999)) OR ((tic.Tmag < 7.4742) AND (tic.Tmag + 2 * tic.e_Tmag > 7.4622)))) AND ((((tic.logg > 4.41) AND (tic.logg - 2 * tic.e_logg < 4.83)) OR ((tic.logg < 4.41) AND (tic.logg + 2 * tic.e_logg > 3.99)))) AND ((((tic.rad > 1.26) AND (tic.rad - 2 * tic.e_rad < 1.3)) OR ((tic.rad < 1.26) AND (tic.rad + 2 * tic.e_rad > 1.22)))) AND ((((tic.mass > 1.21) AND (tic.mass - 2 * tic.e_mass < 1.27)) OR ((tic.mass < 1.21) AND (tic.mass + 2 * tic.e_mass > 1.15))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC66560666
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 6196) AND (tic.Teff - 2 * tic.e_Teff < 6254.0)) OR ((tic.Teff < 6196) AND (tic.Teff + 2 * tic.e_Teff > 6138.0)))) AND ((((tic.Tmag > 7.4742) AND (tic.Tmag - 2 * tic.e_Tmag < 7.486199999999999)) OR ((tic.Tmag < 7.4742) AND (tic.Tmag + 2 * tic.e_Tmag > 7.4622)))) AND ((((tic.logg > 4.41) AND (tic.logg - 2 * tic.e_logg < 4.83)) OR ((tic.logg < 4.41) AND (tic.logg + 2 * tic.e_logg > 3.99)))) AND ((((tic.rad > 1.26) AND (tic.rad - 2 * tic.e_rad < 1.3)) OR ((tic.rad < 1.26) AND (tic.rad + 2 * tic.e_rad > 1.22)))) AND ((((tic.mass > 1.21) AND (tic.mass - 2 * tic.e_mass < 1.27)) OR ((tic.mass < 1.21) AND (tic.mass + 2 * tic.e_mass > 1.15))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC189576919
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 6105.51) AND (tic.Teff - 2 * tic.e_Teff < 6360.01)) OR ((tic.Teff < 6105.51) AND (tic.Teff + 2 * tic.e_Teff > 5803.33)))) AND ((((tic.Tmag > 3.6137) AND (tic.Tmag - 2 * tic.e_Tmag < 7.9977)) OR ((tic.Tmag < 3.6137) AND (tic.Tmag + 2 * tic.e_Tmag > -0.7703000000000002)))) AND ((((tic.logg > 4.07) AND (tic.logg - 2 * tic.e_logg < 4.25)) OR ((tic.logg < 4.07) AND (tic.logg + 2 * tic.e_logg > 3.93)))) AND ((((tic.rad > 4.07) AND (tic.rad - 2 * tic.e_rad < 4.25)) OR ((tic.rad < 4.07) AND (tic.rad + 2 * tic.e_rad > 4.07)))) AND ((((tic.mass > 4.07) AND (tic.mass - 2 * tic.e_mass < 4.25)) OR ((tic.mass < 4.07) AND (tic.mass + 2 * tic.e_mass > 4.07))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC36853511
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 3396) AND (tic.Teff - 2 * tic.e_Teff < 3710.0)) OR ((tic.Teff < 3396) AND (tic.Teff + 2 * tic.e_Teff > 3082.0)))) AND ((((tic.Tmag > 8.20238) AND (tic.Tmag - 2 * tic.e_Tmag < 8.2174038)) OR ((tic.Tmag < 8.20238) AND (tic.Tmag + 2 * tic.e_Tmag > 8.1873562)))) AND ((((tic.logg > 4.89) AND (tic.logg - 2 * tic.e_logg < 4.89)) OR ((tic.logg < 4.89) AND (tic.logg + 2 * tic.e_logg > 4.89)))) AND ((((tic.rad > 0.33) AND (tic.rad - 2 * tic.e_rad < 0.35000000000000003)) OR ((tic.rad < 0.33) AND (tic.rad + 2 * tic.e_rad > 0.31)))) AND ((((tic.mass > 0.31) AND (tic.mass - 2 * tic.e_mass < 0.35)) OR ((tic.mass < 0.31) AND (tic.mass + 2 * tic.e_mass > 0.27))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC36853511
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 3396) AND (tic.Teff - 2 * tic.e_Teff < 3710.0)) OR ((tic.Teff < 3396) AND (tic.Teff + 2 * tic.e_Teff > 3082.0)))) AND ((((tic.Tmag > 8.20238) AND (tic.Tmag - 2 * tic.e_Tmag < 8.2174038)) OR ((tic.Tmag < 8.20238) AND (tic.Tmag + 2 * tic.e_Tmag > 8.1873562)))) AND ((((tic.logg > 4.89) AND (tic.logg - 2 * tic.e_logg < 4.89)) OR ((tic.logg < 4.89) AND (tic.logg + 2 * tic.e_logg > 4.89)))) AND ((((tic.rad > 0.33) AND (tic.rad - 2 * tic.e_rad < 0.35000000000000003)) OR ((tic.rad < 0.33) AND (tic.rad + 2 * tic.e_rad > 0.31)))) AND ((((tic.mass > 0.31) AND (tic.mass - 2 * tic.e_mass < 0.35)) OR ((tic.mass < 0.31) AND (tic.mass + 2 * tic.e_mass > 0.27))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC422478973
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 5577) AND (tic.Teff - 2 * tic.e_Teff < 5643.0)) OR ((tic.Teff < 5577) AND (tic.Teff + 2 * tic.e_Teff > 5511.0)))) AND ((((tic.Tmag > 4.085) AND (tic.Tmag - 2 * tic.e_Tmag < 4.1014)) OR ((tic.Tmag < 4.085) AND (tic.Tmag + 2 * tic.e_Tmag > 4.0686)))) AND ((((tic.logg > 4.34) AND (tic.logg - 2 * tic.e_logg < 4.3999999999999995)) OR ((tic.logg < 4.34) AND (tic.logg + 2 * tic.e_logg > 4.28)))) AND ((((tic.rad > 0.96) AND (tic.rad - 2 * tic.e_rad < 0.98)) OR ((tic.rad < 0.96) AND (tic.rad + 2 * tic.e_rad > 0.94)))) AND ((((tic.mass > 0.94) AND (tic.mass - 2 * tic.e_mass < 1.0)) OR ((tic.mass < 0.94) AND (tic.mass + 2 * tic.e_mass > 0.8799999999999999))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC468723402
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 5131) AND (tic.Teff - 2 * tic.e_Teff < 5159.0)) OR ((tic.Teff < 5131) AND (tic.Teff + 2 * tic.e_Teff > 5103.0)))) AND ((((tic.Tmag > 6.3929) AND (tic.Tmag - 2 * tic.e_Tmag < 6.4049)) OR ((tic.Tmag < 6.3929) AND (tic.Tmag + 2 * tic.e_Tmag > 6.3809000000000005)))) AND ((((tic.logg > 4.46) AND (tic.logg - 2 * tic.e_logg < 4.52)) OR ((tic.logg < 4.46) AND (tic.logg + 2 * tic.e_logg > 4.4)))) AND ((((tic.rad > 0.78) AND (tic.rad - 2 * tic.e_rad < 0.8)) OR ((tic.rad < 0.78) AND (tic.rad + 2 * tic.e_rad > 0.76)))) AND ((((tic.mass > 0.65) AND (tic.mass - 2 * tic.e_mass < 0.75)) OR ((tic.mass < 0.65) AND (tic.mass + 2 * tic.e_mass > 0.55))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC610210976
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 3056) AND (tic.Teff - 2 * tic.e_Teff < 3176.0)) OR ((tic.Teff < 3056) AND (tic.Teff + 2 * tic.e_Teff > 2936.0)))) AND ((((tic.Tmag > 12.2975) AND (tic.Tmag - 2 * tic.e_Tmag < 12.3923648)) OR ((tic.Tmag < 12.2975) AND (tic.Tmag + 2 * tic.e_Tmag > 12.2026352)))) AND ( AND ((((tic.rad > 0.17) AND (tic.rad - 2 * tic.e_rad < 0.19)) OR ((tic.rad < 0.17) AND (tic.rad + 2 * tic.e_rad > 0.15000000000000002)))) AND ((((tic.mass > 0.13) AND (tic.mass - 2 * tic.e_mass < 0.15)) OR ((tic.mass < 0.13) AND (tic.mass + 2 * tic.e_mass > 0.11))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC610210976
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 3056) AND (tic.Teff - 2 * tic.e_Teff < 3176.0)) OR ((tic.Teff < 3056) AND (tic.Teff + 2 * tic.e_Teff > 2936.0)))) AND ((((tic.Tmag > 12.2975) AND (tic.Tmag - 2 * tic.e_Tmag < 12.3923648)) OR ((tic.Tmag < 12.2975) AND (tic.Tmag + 2 * tic.e_Tmag > 12.2026352)))) AND ( AND ((((tic.rad > 0.17) AND (tic.rad - 2 * tic.e_rad < 0.19)) OR ((tic.rad < 0.17) AND (tic.rad + 2 * tic.e_rad > 0.15000000000000002)))) AND ((((tic.mass > 0.13) AND (tic.mass - 2 * tic.e_mass < 0.15)) OR ((tic.mass < 0.13) AND (tic.mass + 2 * tic.e_mass > 0.11))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC610210976
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 3056) AND (tic.Teff - 2 * tic.e_Teff < 3176.0)) OR ((tic.Teff < 3056) AND (tic.Teff + 2 * tic.e_Teff > 2936.0)))) AND ((((tic.Tmag > 12.2975) AND (tic.Tmag - 2 * tic.e_Tmag < 12.3923648)) OR ((tic.Tmag < 12.2975) AND (tic.Tmag + 2 * tic.e_Tmag > 12.2026352)))) AND ( AND ((((tic.rad > 0.17) AND (tic.rad - 2 * tic.e_rad < 0.19)) OR ((tic.rad < 0.17) AND (tic.rad + 2 * tic.e_rad > 0.15000000000000002)))) AND ((((tic.mass > 0.13) AND (tic.mass - 2 * tic.e_mass < 0.15)) OR ((tic.mass < 0.13) AND (tic.mass + 2 * tic.e_mass > 0.11))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC632528291
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 3717) AND (tic.Teff - 2 * tic.e_Teff < 3815.0)) OR ((tic.Teff < 3717) AND (tic.Teff + 2 * tic.e_Teff > 3619.0)))) AND ((((tic.Tmag > 11.075) AND (tic.Tmag - 2 * tic.e_Tmag < 11.1698648)) OR ((tic.Tmag < 11.075) AND (tic.Tmag + 2 * tic.e_Tmag > 10.9801352)))) AND ( AND ((((tic.rad > 0.5) AND (tic.rad - 2 * tic.e_rad < 0.56)) OR ((tic.rad < 0.5) AND (tic.rad + 2 * tic.e_rad > 0.44)))) AND ((((tic.mass > 0.5) AND (tic.mass - 2 * tic.e_mass < 0.56)) OR ((tic.mass < 0.5) AND (tic.mass + 2 * tic.e_mass > 0.5))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC632528291
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 3717) AND (tic.Teff - 2 * tic.e_Teff < 3815.0)) OR ((tic.Teff < 3717) AND (tic.Teff + 2 * tic.e_Teff > 3619.0)))) AND ((((tic.Tmag > 11.075) AND (tic.Tmag - 2 * tic.e_Tmag < 11.1698648)) OR ((tic.Tmag < 11.075) AND (tic.Tmag + 2 * tic.e_Tmag > 10.9801352)))) AND ( AND ((((tic.rad > 0.5) AND (tic.rad - 2 * tic.e_rad < 0.56)) OR ((tic.rad < 0.5) AND (tic.rad + 2 * tic.e_rad > 0.44)))) AND ((((tic.mass > 0.5) AND (tic.mass - 2 * tic.e_mass < 0.56)) OR ((tic.mass < 0.5) AND (tic.mass + 2 * tic.e_mass > 0.5))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC79611981
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 2953) AND (tic.Teff - 2 * tic.e_Teff < 3149.0)) OR ((tic.Teff < 2953) AND (tic.Teff + 2 * tic.e_Teff > 2757.0)))) AND ((((tic.Tmag > 9.47068) AND (tic.Tmag - 2 * tic.e_Tmag < 9.4857656)) OR ((tic.Tmag < 9.47068) AND (tic.Tmag + 2 * tic.e_Tmag > 9.455594399999999)))) AND ( AND ((((tic.rad > 0.16) AND (tic.rad - 2 * tic.e_rad < 0.18)) OR ((tic.rad < 0.16) AND (tic.rad + 2 * tic.e_rad > 0.14)))) AND ((((tic.mass > 0.12) AND (tic.mass - 2 * tic.e_mass < 0.13999999999999999)) OR ((tic.mass < 0.12) AND (tic.mass + 2 * tic.e_mass > 0.09999999999999999))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC101145648
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 5657) AND (tic.Teff - 2 * tic.e_Teff < 5675.0)) OR ((tic.Teff < 5657) AND (tic.Teff + 2 * tic.e_Teff > 5639.0)))) AND ((((tic.Tmag > 6.9941) AND (tic.Tmag - 2 * tic.e_Tmag < 7.0061)) OR ((tic.Tmag < 6.9941) AND (tic.Tmag + 2 * tic.e_Tmag > 6.982100000000001)))) AND ((((tic.logg > 4.36) AND (tic.logg - 2 * tic.e_logg < 4.4)) OR ((tic.logg < 4.36) AND (tic.logg + 2 * tic.e_logg > 4.32)))) AND ((((tic.rad > 1.08) AND (tic.rad - 2 * tic.e_rad < 1.1)) OR ((tic.rad < 1.08) AND (tic.rad + 2 * tic.e_rad > 1.06)))) AND ((((tic.mass > 0.96) AND (tic.mass - 2 * tic.e_mass < 1.06)) OR ((tic.mass < 0.96) AND (tic.mass + 2 * tic.e_mass > 0.86))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC175291727
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 5300) AND (tic.Teff - 2 * tic.e_Teff < 5360.0)) OR ((tic.Teff < 5300) AND (tic.Teff + 2 * tic.e_Teff > 5240.0)))) AND ((((tic.Tmag > 11.3854) AND (tic.Tmag - 2 * tic.e_Tmag < 11.3976)) OR ((tic.Tmag < 11.3854) AND (tic.Tmag + 2 * tic.e_Tmag > 11.3732)))) AND ((((tic.logg > 4.51) AND (tic.logg - 2 * tic.e_logg < 4.609999999999999)) OR ((tic.logg < 4.51) AND (tic.logg + 2 * tic.e_logg > 4.41)))) AND ((((tic.rad > 0.83) AND (tic.rad - 2 * tic.e_rad < 0.85)) OR ((tic.rad < 0.83) AND (tic.rad + 2 * tic.e_rad > 0.8099999999999999)))) AND ((((tic.mass > 0.94) AND (tic.mass - 2 * tic.e_mass < 0.96)) OR ((tic.mass < 0.94) AND (tic.mass + 2 * tic.e_mass > 0.9199999999999999))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC257870150
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 2904) AND (tic.Teff - 2 * tic.e_Teff < 3006.0)) OR ((tic.Teff < 2904) AND (tic.Teff + 2 * tic.e_Teff > 2802.0)))) AND ((((tic.Tmag > 10.565) AND (tic.Tmag - 2 * tic.e_Tmag < 10.5817458)) OR ((tic.Tmag < 10.565) AND (tic.Tmag + 2 * tic.e_Tmag > 10.548254199999999)))) AND ( AND ((((tic.rad > 0.11) AND (tic.rad - 2 * tic.e_rad < 0.11)) OR ((tic.rad < 0.11) AND (tic.rad + 2 * tic.e_rad > 0.11)))) AND ((((tic.mass > 0.09) AND (tic.mass - 2 * tic.e_mass < 0.11)) OR ((tic.mass < 0.09) AND (tic.mass + 2 * tic.e_mass > 0.06999999999999999))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC280304863
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 5256) AND (tic.Teff - 2 * tic.e_Teff < 5438.66)) OR ((tic.Teff < 5256) AND (tic.Teff + 2 * tic.e_Teff > 4994.3)))) AND ((((tic.Tmag > 10.9996) AND (tic.Tmag - 2 * tic.e_Tmag < 11.0118)) OR ((tic.Tmag < 10.9996) AND (tic.Tmag + 2 * tic.e_Tmag > 10.9874)))) AND ((((tic.logg > 4.52) AND (tic.logg - 2 * tic.e_logg < 4.68)) OR ((tic.logg < 4.52) AND (tic.logg + 2 * tic.e_logg > 4.359999999999999)))) AND ((((tic.rad > 0.86) AND (tic.rad - 2 * tic.e_rad < 0.96)) OR ((tic.rad < 0.86) AND (tic.rad + 2 * tic.e_rad > 0.78)))) AND ((((tic.mass > 0.9) AND (tic.mass - 2 * tic.e_mass < 1.1400000000000001)) OR ((tic.mass < 0.9) AND (tic.mass + 2 * tic.e_mass > 0.7))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC318686860
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 3382) AND (tic.Teff - 2 * tic.e_Teff < 3480.0)) OR ((tic.Teff < 3382) AND (tic.Teff + 2 * tic.e_Teff > 3284.0)))) AND ((((tic.Tmag > 7.308) AND (tic.Tmag - 2 * tic.e_Tmag < 7.374)) OR ((tic.Tmag < 7.308) AND (tic.Tmag + 2 * tic.e_Tmag > 7.242)))) AND ( AND ((((tic.rad > 0.29) AND (tic.rad - 2 * tic.e_rad < 0.35)) OR ((tic.rad < 0.29) AND (tic.rad + 2 * tic.e_rad > 0.22999999999999998)))) AND ((((tic.mass > 0.29) AND (tic.mass - 2 * tic.e_mass < 0.35)) OR ((tic.mass < 0.29) AND (tic.mass + 2 * tic.e_mass > 0.29))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC33355302
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 4816) AND (tic.Teff - 2 * tic.e_Teff < 5044.0)) OR ((tic.Teff < 4816) AND (tic.Teff + 2 * tic.e_Teff > 4588.0)))) AND ((((tic.Tmag > 8.86) AND (tic.Tmag - 2 * tic.e_Tmag < 8.872)) OR ((tic.Tmag < 8.86) AND (tic.Tmag + 2 * tic.e_Tmag > 8.847999999999999)))) AND ((((tic.logg > 4.43) AND (tic.logg - 2 * tic.e_logg < 4.87)) OR ((tic.logg < 4.43) AND (tic.logg + 2 * tic.e_logg > 3.9899999999999998)))) AND ((((tic.rad > 0.71) AND (tic.rad - 2 * tic.e_rad < 0.7899999999999999)) OR ((tic.rad < 0.71) AND (tic.rad + 2 * tic.e_rad > 0.63)))) AND ((((tic.mass > 0.5) AND (tic.mass - 2 * tic.e_mass < 1.02)) OR ((tic.mass < 0.5) AND (tic.mass + 2 * tic.e_mass > -0.020000000000000018))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC37748347
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 5765) AND (tic.Teff - 2 * tic.e_Teff < 5801.0)) OR ((tic.Teff < 5765) AND (tic.Teff + 2 * tic.e_Teff > 5729.0)))) AND ((((tic.Tmag > 5.8575) AND (tic.Tmag - 2 * tic.e_Tmag < 5.8694999999999995)) OR ((tic.Tmag < 5.8575) AND (tic.Tmag + 2 * tic.e_Tmag > 5.8455)))) AND ((((tic.logg > 4.38) AND (tic.logg - 2 * tic.e_logg < 4.4399999999999995)) OR ((tic.logg < 4.38) AND (tic.logg + 2 * tic.e_logg > 4.32)))) AND ((((tic.rad > 1.13) AND (tic.rad - 2 * tic.e_rad < 1.23)) OR ((tic.rad < 1.13) AND (tic.rad + 2 * tic.e_rad > 1.0299999999999998)))) AND ((((tic.mass > 1.13) AND (tic.mass - 2 * tic.e_mass < 1.23)) OR ((tic.mass < 1.13) AND (tic.mass + 2 * tic.e_mass > 1.13))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC403224672
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 5978) AND (tic.Teff - 2 * tic.e_Teff < 6078.0)) OR ((tic.Teff < 5978) AND (tic.Teff + 2 * tic.e_Teff > 5878.0)))) AND ((((tic.Tmag > 7.384) AND (tic.Tmag - 2 * tic.e_Tmag < 7.3962)) OR ((tic.Tmag < 7.384) AND (tic.Tmag + 2 * tic.e_Tmag > 7.3718)))) AND ((((tic.logg > 4.38) AND (tic.logg - 2 * tic.e_logg < 4.3999999999999995)) OR ((tic.logg < 4.38) AND (tic.logg + 2 * tic.e_logg > 4.36)))) AND ((((tic.rad > 1.1) AND (tic.rad - 2 * tic.e_rad < 1.12)) OR ((tic.rad < 1.1) AND (tic.rad + 2 * tic.e_rad > 1.08)))) AND ((((tic.mass > 1.07) AND (tic.mass - 2 * tic.e_mass < 1.11)) OR ((tic.mass < 1.07) AND (tic.mass + 2 * tic.e_mass > 1.03))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC43605290
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 3159) AND (tic.Teff - 2 * tic.e_Teff < 3257.0)) OR ((tic.Teff < 3159) AND (tic.Teff + 2 * tic.e_Teff > 3061.0)))) AND ((((tic.Tmag > 9.4284) AND (tic.Tmag - 2 * tic.e_Tmag < 9.4404)) OR ((tic.Tmag < 9.4284) AND (tic.Tmag + 2 * tic.e_Tmag > 9.4164)))) AND ( AND ((((tic.rad > 0.12) AND (tic.rad - 2 * tic.e_rad < 0.18)) OR ((tic.rad < 0.12) AND (tic.rad + 2 * tic.e_rad > 0.06)))) AND ((((tic.mass > 0.12) AND (tic.mass - 2 * tic.e_mass < 0.18)) OR ((tic.mass < 0.12) AND (tic.mass + 2 * tic.e_mass > 0.12))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC454901855
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 5966) AND (tic.Teff - 2 * tic.e_Teff < 5994.0)) OR ((tic.Teff < 5966) AND (tic.Teff + 2 * tic.e_Teff > 5938.0)))) AND ((((tic.Tmag > 5.7308) AND (tic.Tmag - 2 * tic.e_Tmag < 5.7428)) OR ((tic.Tmag < 5.7308) AND (tic.Tmag + 2 * tic.e_Tmag > 5.718800000000001)))) AND ((((tic.logg > 4.43) AND (tic.logg - 2 * tic.e_logg < 4.489999999999999)) OR ((tic.logg < 4.43) AND (tic.logg + 2 * tic.e_logg > 4.37)))) AND ( AND ((((tic.mass > 4.43) AND (tic.mass - 2 * tic.e_mass < 4.489999999999999)) OR ((tic.mass < 4.43) AND (tic.mass + 2 * tic.e_mass > 4.43))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC469943599
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 5110) AND (tic.Teff - 2 * tic.e_Teff < 5326.0)) OR ((tic.Teff < 5110) AND (tic.Teff + 2 * tic.e_Teff > 4894.0)))) AND ((((tic.Tmag > 8.1115) AND (tic.Tmag - 2 * tic.e_Tmag < 8.1235)) OR ((tic.Tmag < 8.1115) AND (tic.Tmag + 2 * tic.e_Tmag > 8.099499999999999)))) AND ((((tic.logg > 4.4) AND (tic.logg - 2 * tic.e_logg < 4.82)) OR ((tic.logg < 4.4) AND (tic.logg + 2 * tic.e_logg > 3.9800000000000004)))) AND ((((tic.rad > 0.85) AND (tic.rad - 2 * tic.e_rad < 0.9299999999999999)) OR ((tic.rad < 0.85) AND (tic.rad + 2 * tic.e_rad > 0.77)))) AND ((((tic.mass > 0.67) AND (tic.mass - 2 * tic.e_mass < 1.33)) OR ((tic.mass < 0.67) AND (tic.mass + 2 * tic.e_mass > 0.010000000000000009))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC49831913
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 5869) AND (tic.Teff - 2 * tic.e_Teff < 5897.0)) OR ((tic.Teff < 5869) AND (tic.Teff + 2 * tic.e_Teff > 5841.0)))) AND ((((tic.Tmag > 5.7911) AND (tic.Tmag - 2 * tic.e_Tmag < 5.8031)) OR ((tic.Tmag < 5.7911) AND (tic.Tmag + 2 * tic.e_Tmag > 5.779100000000001)))) AND ((((tic.logg > 4.47) AND (tic.logg - 2 * tic.e_logg < 4.51)) OR ((tic.logg < 4.47) AND (tic.logg + 2 * tic.e_logg > 4.43)))) AND ( AND ((((tic.mass > 4.47) AND (tic.mass - 2 * tic.e_mass < 4.51)) OR ((tic.mass < 4.47) AND (tic.mass + 2 * tic.e_mass > 4.47))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC58559140
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 5790) AND (tic.Teff - 2 * tic.e_Teff < 6105.42)) OR ((tic.Teff < 5790) AND (tic.Teff + 2 * tic.e_Teff > 5559.88)))) AND ((((tic.Tmag > 7.2466) AND (tic.Tmag - 2 * tic.e_Tmag < 7.2585999999999995)) OR ((tic.Tmag < 7.2466) AND (tic.Tmag + 2 * tic.e_Tmag > 7.2346)))) AND ((((tic.logg > 4.33) AND (tic.logg - 2 * tic.e_logg < 4.49)) OR ((tic.logg < 4.33) AND (tic.logg + 2 * tic.e_logg > 4.15)))) AND ((((tic.rad > 1.15) AND (tic.rad - 2 * tic.e_rad < 1.27)) OR ((tic.rad < 1.15) AND (tic.rad + 2 * tic.e_rad > 1.0299999999999998)))) AND ((((tic.mass > 1.04) AND (tic.mass - 2 * tic.e_mass < 1.26)) OR ((tic.mass < 1.04) AND (tic.mass + 2 * tic.e_mass > 0.72))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC66914642
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 4324) AND (tic.Teff - 2 * tic.e_Teff < 4524.0)) OR ((tic.Teff < 4324) AND (tic.Teff + 2 * tic.e_Teff > 4124.0)))) AND ((((tic.Tmag > 8.2906) AND (tic.Tmag - 2 * tic.e_Tmag < 8.3026)) OR ((tic.Tmag < 8.2906) AND (tic.Tmag + 2 * tic.e_Tmag > 8.278599999999999)))) AND ((((tic.logg > 4.74) AND (tic.logg - 2 * tic.e_logg < 4.78)) OR ((tic.logg < 4.74) AND (tic.logg + 2 * tic.e_logg > 4.7)))) AND ( AND ((((tic.mass > 4.74) AND (tic.mass - 2 * tic.e_mass < 4.78)) OR ((tic.mass < 4.74) AND (tic.mass + 2 * tic.e_mass > 4.74))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC734710085
+WHERE (tic.objType = STAR) AND ( AND ((((tic.Tmag > 7.816) AND (tic.Tmag - 2 * tic.e_Tmag < 7.8282)) OR ((tic.Tmag < 7.816) AND (tic.Tmag + 2 * tic.e_Tmag > 7.8038)))) AND ( AND ( AND ((((tic.mass > 7.816) AND (tic.mass - 2 * tic.e_mass < 7.8282)) OR ((tic.mass < 7.816) AND (tic.mass + 2 * tic.e_mass > 7.816))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC92352621
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 6040) AND (tic.Teff - 2 * tic.e_Teff < 6220.0)) OR ((tic.Teff < 6040) AND (tic.Teff + 2 * tic.e_Teff > 5860.0)))) AND ((((tic.Tmag > 10.0103) AND (tic.Tmag - 2 * tic.e_Tmag < 10.022300000000001)) OR ((tic.Tmag < 10.0103) AND (tic.Tmag + 2 * tic.e_Tmag > 9.9983)))) AND ((((tic.logg > 4.26) AND (tic.logg - 2 * tic.e_logg < 4.38)) OR ((tic.logg < 4.26) AND (tic.logg + 2 * tic.e_logg > 4.14)))) AND ((((tic.rad > 1.35) AND (tic.rad - 2 * tic.e_rad < 1.59)) OR ((tic.rad < 1.35) AND (tic.rad + 2 * tic.e_rad > 1.11)))) AND ((((tic.mass > 1.24) AND (tic.mass - 2 * tic.e_mass < 1.42)) OR ((tic.mass < 1.24) AND (tic.mass + 2 * tic.e_mass > 1.06))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC137810576
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 1.24) AND (tic.Teff - 2 * tic.e_Teff < 1.42)) OR ((tic.Teff < 1.24) AND (tic.Teff + 2 * tic.e_Teff > 1.24)))) AND ((((tic.Tmag > 7.03923) AND (tic.Tmag - 2 * tic.e_Tmag < 7.05143)) OR ((tic.Tmag < 7.03923) AND (tic.Tmag + 2 * tic.e_Tmag > 7.02703)))) AND ((((tic.logg > 7.03923) AND (tic.logg - 2 * tic.e_logg < 7.05143)) OR ((tic.logg < 7.03923) AND (tic.logg + 2 * tic.e_logg > 7.03923)))) AND ((((tic.rad > 7.03923) AND (tic.rad - 2 * tic.e_rad < 7.05143)) OR ((tic.rad < 7.03923) AND (tic.rad + 2 * tic.e_rad > 7.03923)))) AND ((((tic.mass > 7.03923) AND (tic.mass - 2 * tic.e_mass < 7.05143)) OR ((tic.mass < 7.03923) AND (tic.mass + 2 * tic.e_mass > 7.03923))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC144289338
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 7.03923) AND (tic.Teff - 2 * tic.e_Teff < 7.05143)) OR ((tic.Teff < 7.03923) AND (tic.Teff + 2 * tic.e_Teff > 7.03923)))) AND ((((tic.Tmag > 7.5993) AND (tic.Tmag - 2 * tic.e_Tmag < 7.6113)) OR ((tic.Tmag < 7.5993) AND (tic.Tmag + 2 * tic.e_Tmag > 7.587300000000001)))) AND ((((tic.logg > 4.31) AND (tic.logg - 2 * tic.e_logg < 4.31)) OR ((tic.logg < 4.31) AND (tic.logg + 2 * tic.e_logg > 4.31)))) AND ((((tic.rad > 1.22) AND (tic.rad - 2 * tic.e_rad < 1.4)) OR ((tic.rad < 1.22) AND (tic.rad + 2 * tic.e_rad > 1.04)))) AND ((((tic.mass > 1.13) AND (tic.mass - 2 * tic.e_mass < 1.5699999999999998)) OR ((tic.mass < 1.13) AND (tic.mass + 2 * tic.e_mass > 0.69))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC148563075
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 5393) AND (tic.Teff - 2 * tic.e_Teff < 5481.0)) OR ((tic.Teff < 5393) AND (tic.Teff + 2 * tic.e_Teff > 5305.0)))) AND ((((tic.Tmag > 9.3253) AND (tic.Tmag - 2 * tic.e_Tmag < 9.3373)) OR ((tic.Tmag < 9.3253) AND (tic.Tmag + 2 * tic.e_Tmag > 9.3133)))) AND ((((tic.logg > 4.69) AND (tic.logg - 2 * tic.e_logg < 4.8100000000000005)) OR ((tic.logg < 4.69) AND (tic.logg + 2 * tic.e_logg > 4.57)))) AND ((((tic.rad > 0.91) AND (tic.rad - 2 * tic.e_rad < 0.99)) OR ((tic.rad < 0.91) AND (tic.rad + 2 * tic.e_rad > 0.8300000000000001)))) AND ((((tic.mass > 1.47) AND (tic.mass - 2 * tic.e_mass < 1.95)) OR ((tic.mass < 1.47) AND (tic.mass + 2 * tic.e_mass > 0.99))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC160301040
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 5576) AND (tic.Teff - 2 * tic.e_Teff < 5676.0)) OR ((tic.Teff < 5576) AND (tic.Teff + 2 * tic.e_Teff > 5484.0)))) AND ((((tic.Tmag > 6.8545) AND (tic.Tmag - 2 * tic.e_Tmag < 6.866499999999999)) OR ((tic.Tmag < 6.8545) AND (tic.Tmag + 2 * tic.e_Tmag > 6.8425)))) AND ( AND ( AND ((((tic.mass > 0.87) AND (tic.mass - 2 * tic.e_mass < 0.97)) OR ((tic.mass < 0.87) AND (tic.mass + 2 * tic.e_mass > 0.77))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC175290574
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 6174) AND (tic.Teff - 2 * tic.e_Teff < 6274.0)) OR ((tic.Teff < 6174) AND (tic.Teff + 2 * tic.e_Teff > 6074.0)))) AND ((((tic.Tmag > 9.9678) AND (tic.Tmag - 2 * tic.e_Tmag < 9.9808)) OR ((tic.Tmag < 9.9678) AND (tic.Tmag + 2 * tic.e_Tmag > 9.9548)))) AND ((((tic.logg > 4.41) AND (tic.logg - 2 * tic.e_logg < 4.61)) OR ((tic.logg < 4.41) AND (tic.logg + 2 * tic.e_logg > 4.21)))) AND ((((tic.rad > 1.15) AND (tic.rad - 2 * tic.e_rad < 1.39)) OR ((tic.rad < 1.15) AND (tic.rad + 2 * tic.e_rad > 0.9099999999999999)))) AND ((((tic.mass > 1.24) AND (tic.mass - 2 * tic.e_mass < 2.02)) OR ((tic.mass < 1.24) AND (tic.mass + 2 * tic.e_mass > 0.45999999999999996))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC178351350
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 1.24) AND (tic.Teff - 2 * tic.e_Teff < 2.02)) OR ((tic.Teff < 1.24) AND (tic.Teff + 2 * tic.e_Teff > 1.24)))) AND ((((tic.Tmag > 8.4665) AND (tic.Tmag - 2 * tic.e_Tmag < 8.4785)) OR ((tic.Tmag < 8.4665) AND (tic.Tmag + 2 * tic.e_Tmag > 8.4545)))) AND ( AND ( AND ((((tic.mass > 8.4665) AND (tic.mass - 2 * tic.e_mass < 8.4785)) OR ((tic.mass < 8.4665) AND (tic.mass + 2 * tic.e_mass > 8.4665))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC180205814
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 6489) AND (tic.Teff - 2 * tic.e_Teff < 6643.0)) OR ((tic.Teff < 6489) AND (tic.Teff + 2 * tic.e_Teff > 6335.0)))) AND ((((tic.Tmag > 6.6793) AND (tic.Tmag - 2 * tic.e_Tmag < 6.691299999999999)) OR ((tic.Tmag < 6.6793) AND (tic.Tmag + 2 * tic.e_Tmag > 6.6673)))) AND ((((tic.logg > 4.26) AND (tic.logg - 2 * tic.e_logg < 4.52)) OR ((tic.logg < 4.26) AND (tic.logg + 2 * tic.e_logg > 4.0)))) AND ( AND ((((tic.mass > 1.33) AND (tic.mass - 2 * tic.e_mass < 1.3900000000000001)) OR ((tic.mass < 1.33) AND (tic.mass + 2 * tic.e_mass > 1.27))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC181741837
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 6117) AND (tic.Teff - 2 * tic.e_Teff < 6149.0)) OR ((tic.Teff < 6117) AND (tic.Teff + 2 * tic.e_Teff > 6085.0)))) AND ((((tic.Tmag > 5.828) AND (tic.Tmag - 2 * tic.e_Tmag < 5.84)) OR ((tic.Tmag < 5.828) AND (tic.Tmag + 2 * tic.e_Tmag > 5.816000000000001)))) AND ((((tic.logg > 4.37) AND (tic.logg - 2 * tic.e_logg < 4.43)) OR ((tic.logg < 4.37) AND (tic.logg + 2 * tic.e_logg > 4.3100000000000005)))) AND ((((tic.rad > 1.23) AND (tic.rad - 2 * tic.e_rad < 1.27)) OR ((tic.rad < 1.23) AND (tic.rad + 2 * tic.e_rad > 1.19)))) AND ((((tic.mass > 1.29) AND (tic.mass - 2 * tic.e_mass < 1.49)) OR ((tic.mass < 1.29) AND (tic.mass + 2 * tic.e_mass > 1.09))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC218263393
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 3600) AND (tic.Teff - 2 * tic.e_Teff < 3800.0)) OR ((tic.Teff < 3600) AND (tic.Teff + 2 * tic.e_Teff > 3400.0)))) AND ((((tic.Tmag > 7.15787) AND (tic.Tmag - 2 * tic.e_Tmag < 7.1738935999999995)) OR ((tic.Tmag < 7.15787) AND (tic.Tmag + 2 * tic.e_Tmag > 7.1418464)))) AND ( AND ( AND ((((tic.mass > 7.15787) AND (tic.mass - 2 * tic.e_mass < 7.1738935999999995)) OR ((tic.mass < 7.15787) AND (tic.mass + 2 * tic.e_mass > 7.15787))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC234928947
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 7.15787) AND (tic.Teff - 2 * tic.e_Teff < 7.1738935999999995)) OR ((tic.Teff < 7.15787) AND (tic.Teff + 2 * tic.e_Teff > 7.15787)))) AND ((((tic.Tmag > 7.1695) AND (tic.Tmag - 2 * tic.e_Tmag < 7.1815)) OR ((tic.Tmag < 7.1695) AND (tic.Tmag + 2 * tic.e_Tmag > 7.157500000000001)))) AND ((((tic.logg > 7.1695) AND (tic.logg - 2 * tic.e_logg < 7.1815)) OR ((tic.logg < 7.1695) AND (tic.logg + 2 * tic.e_logg > 7.1695)))) AND ( AND ((((tic.mass > 7.1695) AND (tic.mass - 2 * tic.e_mass < 7.1815)) OR ((tic.mass < 7.1695) AND (tic.mass + 2 * tic.e_mass > 7.1695))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC244178536
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 5186) AND (tic.Teff - 2 * tic.e_Teff < 5202.0)) OR ((tic.Teff < 5186) AND (tic.Teff + 2 * tic.e_Teff > 5170.0)))) AND ((((tic.Tmag > 8.639) AND (tic.Tmag - 2 * tic.e_Tmag < 8.651)) OR ((tic.Tmag < 8.639) AND (tic.Tmag + 2 * tic.e_Tmag > 8.626999999999999)))) AND ((((tic.logg > 4.38) AND (tic.logg - 2 * tic.e_logg < 4.46)) OR ((tic.logg < 4.38) AND (tic.logg + 2 * tic.e_logg > 4.3)))) AND ((((tic.rad > 0.94) AND (tic.rad - 2 * tic.e_rad < 1.0)) OR ((tic.rad < 0.94) AND (tic.rad + 2 * tic.e_rad > 0.8799999999999999)))) AND ((((tic.mass > 0.77) AND (tic.mass - 2 * tic.e_mass < 0.95)) OR ((tic.mass < 0.77) AND (tic.mass + 2 * tic.e_mass > 0.5900000000000001))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC252470070
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 3879) AND (tic.Teff - 2 * tic.e_Teff < 4013.0)) OR ((tic.Teff < 3879) AND (tic.Teff + 2 * tic.e_Teff > 3745.0)))) AND ((((tic.Tmag > 8.25157) AND (tic.Tmag - 2 * tic.e_Tmag < 8.2661438)) OR ((tic.Tmag < 8.25157) AND (tic.Tmag + 2 * tic.e_Tmag > 8.236996199999998)))) AND ( AND ((((tic.rad > 0.56) AND (tic.rad - 2 * tic.e_rad < 0.6000000000000001)) OR ((tic.rad < 0.56) AND (tic.rad + 2 * tic.e_rad > 0.52)))) AND ((((tic.mass > 0.56) AND (tic.mass - 2 * tic.e_mass < 0.5800000000000001)) OR ((tic.mass < 0.56) AND (tic.mass + 2 * tic.e_mass > 0.54))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC257715493
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 4850) AND (tic.Teff - 2 * tic.e_Teff < 5026.0)) OR ((tic.Teff < 4850) AND (tic.Teff + 2 * tic.e_Teff > 4674.0)))) AND ((((tic.Tmag > 7.4911) AND (tic.Tmag - 2 * tic.e_Tmag < 7.5031)) OR ((tic.Tmag < 7.4911) AND (tic.Tmag + 2 * tic.e_Tmag > 7.479100000000001)))) AND ((((tic.logg > 4.6) AND (tic.logg - 2 * tic.e_logg < 4.84)) OR ((tic.logg < 4.6) AND (tic.logg + 2 * tic.e_logg > 4.359999999999999)))) AND ((((tic.rad > 0.72) AND (tic.rad - 2 * tic.e_rad < 0.74)) OR ((tic.rad < 0.72) AND (tic.rad + 2 * tic.e_rad > 0.7)))) AND ((((tic.mass > 0.77) AND (tic.mass - 2 * tic.e_mass < 0.81)) OR ((tic.mass < 0.77) AND (tic.mass + 2 * tic.e_mass > 0.73))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC268397995
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 4250) AND (tic.Teff - 2 * tic.e_Teff < 4350.0)) OR ((tic.Teff < 4250) AND (tic.Teff + 2 * tic.e_Teff > 4150.0)))) AND ((((tic.Tmag > 10.8266) AND (tic.Tmag - 2 * tic.e_Tmag < 10.842199999999998)) OR ((tic.Tmag < 10.8266) AND (tic.Tmag + 2 * tic.e_Tmag > 10.811)))) AND ( AND ((((tic.rad > 2) AND (tic.rad - 2 * tic.e_rad < 2.4)) OR ((tic.rad < 2) AND (tic.rad + 2 * tic.e_rad > 1.6)))) AND ((((tic.mass > 1) AND (tic.mass - 2 * tic.e_mass < 1.1)) OR ((tic.mass < 1) AND (tic.mass + 2 * tic.e_mass > 0.9))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC27073220
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 1) AND (tic.Teff - 2 * tic.e_Teff < 1.1)) OR ((tic.Teff < 1) AND (tic.Teff + 2 * tic.e_Teff > 1.0)))) AND ((((tic.Tmag > 7.3119) AND (tic.Tmag - 2 * tic.e_Tmag < 7.323899999999999)) OR ((tic.Tmag < 7.3119) AND (tic.Tmag + 2 * tic.e_Tmag > 7.2999)))) AND ((((tic.logg > 7.3119) AND (tic.logg - 2 * tic.e_logg < 7.323899999999999)) OR ((tic.logg < 7.3119) AND (tic.logg + 2 * tic.e_logg > 7.3119)))) AND ((((tic.rad > 7.3119) AND (tic.rad - 2 * tic.e_rad < 7.323899999999999)) OR ((tic.rad < 7.3119) AND (tic.rad + 2 * tic.e_rad > 7.3119)))) AND ((((tic.mass > 7.3119) AND (tic.mass - 2 * tic.e_mass < 7.323899999999999)) OR ((tic.mass < 7.3119) AND (tic.mass + 2 * tic.e_mass > 7.3119))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC272783172
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 6380) AND (tic.Teff - 2 * tic.e_Teff < 6500.0)) OR ((tic.Teff < 6380) AND (tic.Teff + 2 * tic.e_Teff > 6260.0)))) AND ((((tic.Tmag > 6.2659) AND (tic.Tmag - 2 * tic.e_Tmag < 6.2779)) OR ((tic.Tmag < 6.2659) AND (tic.Tmag + 2 * tic.e_Tmag > 6.253900000000001)))) AND ((((tic.logg > 4.37) AND (tic.logg - 2 * tic.e_logg < 4.45)) OR ((tic.logg < 4.37) AND (tic.logg + 2 * tic.e_logg > 4.29)))) AND ( AND ((((tic.mass > 1.51) AND (tic.mass - 2 * tic.e_mass < 1.73)) OR ((tic.mass < 1.51) AND (tic.mass + 2 * tic.e_mass > 1.29))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC275786473
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 5000) AND (tic.Teff - 2 * tic.e_Teff < 5042.0)) OR ((tic.Teff < 5000) AND (tic.Teff + 2 * tic.e_Teff > 4958.0)))) AND ((((tic.Tmag > 8.5171) AND (tic.Tmag - 2 * tic.e_Tmag < 8.5291)) OR ((tic.Tmag < 8.5171) AND (tic.Tmag + 2 * tic.e_Tmag > 8.505099999999999)))) AND ((((tic.logg > 4.26) AND (tic.logg - 2 * tic.e_logg < 4.319999999999999)) OR ((tic.logg < 4.26) AND (tic.logg + 2 * tic.e_logg > 4.2)))) AND ((((tic.rad > 0.84) AND (tic.rad - 2 * tic.e_rad < 0.86)) OR ((tic.rad < 0.84) AND (tic.rad + 2 * tic.e_rad > 0.82)))) AND ((((tic.mass > 0.47) AND (tic.mass - 2 * tic.e_mass < 0.5499999999999999)) OR ((tic.mass < 0.47) AND (tic.mass + 2 * tic.e_mass > 0.38999999999999996))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC278380701
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 4812) AND (tic.Teff - 2 * tic.e_Teff < 4868.0)) OR ((tic.Teff < 4812) AND (tic.Teff + 2 * tic.e_Teff > 4756.0)))) AND ((((tic.Tmag > 8.439) AND (tic.Tmag - 2 * tic.e_Tmag < 8.451)) OR ((tic.Tmag < 8.439) AND (tic.Tmag + 2 * tic.e_Tmag > 8.427)))) AND ((((tic.logg > 4.28) AND (tic.logg - 2 * tic.e_logg < 4.34)) OR ((tic.logg < 4.28) AND (tic.logg + 2 * tic.e_logg > 4.220000000000001)))) AND ((((tic.rad > 0.77) AND (tic.rad - 2 * tic.e_rad < 0.79)) OR ((tic.rad < 0.77) AND (tic.rad + 2 * tic.e_rad > 0.75)))) AND ((((tic.mass > 0.42) AND (tic.mass - 2 * tic.e_mass < 0.48)) OR ((tic.mass < 0.42) AND (tic.mass + 2 * tic.e_mass > 0.36))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC286923464
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 5864) AND (tic.Teff - 2 * tic.e_Teff < 5914.0)) OR ((tic.Teff < 5864) AND (tic.Teff + 2 * tic.e_Teff > 5814.0)))) AND ((((tic.Tmag > 7.4556) AND (tic.Tmag - 2 * tic.e_Tmag < 7.467599999999999)) OR ((tic.Tmag < 7.4556) AND (tic.Tmag + 2 * tic.e_Tmag > 7.4436)))) AND ((((tic.logg > 4.08) AND (tic.logg - 2 * tic.e_logg < 4.18)) OR ((tic.logg < 4.08) AND (tic.logg + 2 * tic.e_logg > 3.98)))) AND ((((tic.rad > 2.06) AND (tic.rad - 2 * tic.e_rad < 2.18)) OR ((tic.rad < 2.06) AND (tic.rad + 2 * tic.e_rad > 1.94)))) AND ((((tic.mass > 1.84) AND (tic.mass - 2 * tic.e_mass < 2.3200000000000003)) OR ((tic.mass < 1.84) AND (tic.mass + 2 * tic.e_mass > 1.36))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC302368715
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 5644) AND (tic.Teff - 2 * tic.e_Teff < 5710.0)) OR ((tic.Teff < 5644) AND (tic.Teff + 2 * tic.e_Teff > 5578.0)))) AND ((((tic.Tmag > 7.5109) AND (tic.Tmag - 2 * tic.e_Tmag < 7.5229)) OR ((tic.Tmag < 7.5109) AND (tic.Tmag + 2 * tic.e_Tmag > 7.498900000000001)))) AND ((((tic.logg > 4.16) AND (tic.logg - 2 * tic.e_logg < 4.3)) OR ((tic.logg < 4.16) AND (tic.logg + 2 * tic.e_logg > 4.0200000000000005)))) AND ((((tic.rad > 1.37) AND (tic.rad - 2 * tic.e_rad < 1.4300000000000002)) OR ((tic.rad < 1.37) AND (tic.rad + 2 * tic.e_rad > 1.31)))) AND ((((tic.mass > 0.99) AND (tic.mass - 2 * tic.e_mass < 1.33)) OR ((tic.mass < 0.99) AND (tic.mass + 2 * tic.e_mass > 0.6499999999999999))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC317057430
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 6239) AND (tic.Teff - 2 * tic.e_Teff < 6287.0)) OR ((tic.Teff < 6239) AND (tic.Teff + 2 * tic.e_Teff > 6191.0)))) AND ((((tic.Tmag > 7.2644) AND (tic.Tmag - 2 * tic.e_Tmag < 7.2764)) OR ((tic.Tmag < 7.2644) AND (tic.Tmag + 2 * tic.e_Tmag > 7.252400000000001)))) AND ((((tic.logg > 4.5) AND (tic.logg - 2 * tic.e_logg < 4.58)) OR ((tic.logg < 4.5) AND (tic.logg + 2 * tic.e_logg > 4.42)))) AND ((((tic.rad > 1.16) AND (tic.rad - 2 * tic.e_rad < 1.2)) OR ((tic.rad < 1.16) AND (tic.rad + 2 * tic.e_rad > 1.1199999999999999)))) AND ((((tic.mass > 1.55) AND (tic.mass - 2 * tic.e_mass < 1.87)) OR ((tic.mass < 1.55) AND (tic.mass + 2 * tic.e_mass > 1.23))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC32001057
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 6034) AND (tic.Teff - 2 * tic.e_Teff < 6098.0)) OR ((tic.Teff < 6034) AND (tic.Teff + 2 * tic.e_Teff > 5928.0)))) AND ((((tic.Tmag > 7.0252) AND (tic.Tmag - 2 * tic.e_Tmag < 7.0374)) OR ((tic.Tmag < 7.0252) AND (tic.Tmag + 2 * tic.e_Tmag > 7.013)))) AND ( AND ( AND ((((tic.mass > 1.22) AND (tic.mass - 2 * tic.e_mass < 1.3599999999999999)) OR ((tic.mass < 1.22) AND (tic.mass + 2 * tic.e_mass > 1.08))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC32820141
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 5442) AND (tic.Teff - 2 * tic.e_Teff < 5476.0)) OR ((tic.Teff < 5442) AND (tic.Teff + 2 * tic.e_Teff > 5408.0)))) AND ((((tic.Tmag > 7.5351) AND (tic.Tmag - 2 * tic.e_Tmag < 7.5470999999999995)) OR ((tic.Tmag < 7.5351) AND (tic.Tmag + 2 * tic.e_Tmag > 7.5231)))) AND ((((tic.logg > 4.39) AND (tic.logg - 2 * tic.e_logg < 4.47)) OR ((tic.logg < 4.39) AND (tic.logg + 2 * tic.e_logg > 4.31)))) AND ((((tic.rad > 0.94) AND (tic.rad - 2 * tic.e_rad < 0.98)) OR ((tic.rad < 0.94) AND (tic.rad + 2 * tic.e_rad > 0.8999999999999999)))) AND ((((tic.mass > 0.79) AND (tic.mass - 2 * tic.e_mass < 0.93)) OR ((tic.mass < 0.79) AND (tic.mass + 2 * tic.e_mass > 0.65))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC37533318
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 5341) AND (tic.Teff - 2 * tic.e_Teff < 5403.0)) OR ((tic.Teff < 5341) AND (tic.Teff + 2 * tic.e_Teff > 5279.0)))) AND ((((tic.Tmag > 7.9017) AND (tic.Tmag - 2 * tic.e_Tmag < 7.9136999999999995)) OR ((tic.Tmag < 7.9017) AND (tic.Tmag + 2 * tic.e_Tmag > 7.8897)))) AND ((((tic.logg > 4.6) AND (tic.logg - 2 * tic.e_logg < 4.8)) OR ((tic.logg < 4.6) AND (tic.logg + 2 * tic.e_logg > 4.3999999999999995)))) AND ((((tic.rad > 0.97) AND (tic.rad - 2 * tic.e_rad < 1.01)) OR ((tic.rad < 0.97) AND (tic.rad + 2 * tic.e_rad > 0.9299999999999999)))) AND ((((tic.mass > 1.37) AND (tic.mass - 2 * tic.e_mass < 2.0100000000000002)) OR ((tic.mass < 1.37) AND (tic.mass + 2 * tic.e_mass > 0.7300000000000001))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC383675945
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 5519) AND (tic.Teff - 2 * tic.e_Teff < 5659.0)) OR ((tic.Teff < 5519) AND (tic.Teff + 2 * tic.e_Teff > 5379.0)))) AND ((((tic.Tmag > 7.9605) AND (tic.Tmag - 2 * tic.e_Tmag < 7.9727)) OR ((tic.Tmag < 7.9605) AND (tic.Tmag + 2 * tic.e_Tmag > 7.9483)))) AND ((((tic.logg > 4.53) AND (tic.logg - 2 * tic.e_logg < 4.7700000000000005)) OR ((tic.logg < 4.53) AND (tic.logg + 2 * tic.e_logg > 4.29)))) AND ((((tic.rad > 0.89) AND (tic.rad - 2 * tic.e_rad < 0.95)) OR ((tic.rad < 0.89) AND (tic.rad + 2 * tic.e_rad > 0.8300000000000001)))) AND ((((tic.mass > 0.97) AND (tic.mass - 2 * tic.e_mass < 1.53)) OR ((tic.mass < 0.97) AND (tic.mass + 2 * tic.e_mass > 0.4099999999999999))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC389018596
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 4503) AND (tic.Teff - 2 * tic.e_Teff < 4649.0)) OR ((tic.Teff < 4503) AND (tic.Teff + 2 * tic.e_Teff > 4357.0)))) AND ((((tic.Tmag > 9.3371) AND (tic.Tmag - 2 * tic.e_Tmag < 9.349499999999999)) OR ((tic.Tmag < 9.3371) AND (tic.Tmag + 2 * tic.e_Tmag > 9.3247)))) AND ((((tic.logg > 4.67) AND (tic.logg - 2 * tic.e_logg < 4.77)) OR ((tic.logg < 4.67) AND (tic.logg + 2 * tic.e_logg > 4.57)))) AND ((((tic.rad > 0.69) AND (tic.rad - 2 * tic.e_rad < 0.73)) OR ((tic.rad < 0.69) AND (tic.rad + 2 * tic.e_rad > 0.6499999999999999)))) AND ((((tic.mass > 0.82) AND (tic.mass - 2 * tic.e_mass < 1.06)) OR ((tic.mass < 0.82) AND (tic.mass + 2 * tic.e_mass > 0.58))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC397024052
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 5301) AND (tic.Teff - 2 * tic.e_Teff < 5313.0)) OR ((tic.Teff < 5301) AND (tic.Teff + 2 * tic.e_Teff > 5289.0)))) AND ((((tic.Tmag > 7.3319) AND (tic.Tmag - 2 * tic.e_Tmag < 7.3439)) OR ((tic.Tmag < 7.3319) AND (tic.Tmag + 2 * tic.e_Tmag > 7.3199000000000005)))) AND ((((tic.logg > 4.49) AND (tic.logg - 2 * tic.e_logg < 4.53)) OR ((tic.logg < 4.49) AND (tic.logg + 2 * tic.e_logg > 4.45)))) AND ((((tic.rad > 0.82) AND (tic.rad - 2 * tic.e_rad < 0.84)) OR ((tic.rad < 0.82) AND (tic.rad + 2 * tic.e_rad > 0.7999999999999999)))) AND ((((tic.mass > 0.76) AND (tic.mass - 2 * tic.e_mass < 0.84)) OR ((tic.mass < 0.76) AND (tic.mass + 2 * tic.e_mass > 0.68))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC437034879
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 5725) AND (tic.Teff - 2 * tic.e_Teff < 5815.0)) OR ((tic.Teff < 5725) AND (tic.Teff + 2 * tic.e_Teff > 5635.0)))) AND ((((tic.Tmag > 14.1424) AND (tic.Tmag - 2 * tic.e_Tmag < 14.1564)) OR ((tic.Tmag < 14.1424) AND (tic.Tmag + 2 * tic.e_Tmag > 14.128400000000001)))) AND ((((tic.logg > 4.57) AND (tic.logg - 2 * tic.e_logg < 4.69)) OR ((tic.logg < 4.57) AND (tic.logg + 2 * tic.e_logg > 4.45)))) AND ((((tic.rad > 0.89) AND (tic.rad - 2 * tic.e_rad < 0.93)) OR ((tic.rad < 0.89) AND (tic.rad + 2 * tic.e_rad > 0.85)))) AND ((((tic.mass > 0.96) AND (tic.mass - 2 * tic.e_mass < 0.98)) OR ((tic.mass < 0.96) AND (tic.mass + 2 * tic.e_mass > 0.94))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC437038987
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 6165) AND (tic.Teff - 2 * tic.e_Teff < 6293.0)) OR ((tic.Teff < 6165) AND (tic.Teff + 2 * tic.e_Teff > 6037.0)))) AND ((((tic.Tmag > 13.1954) AND (tic.Tmag - 2 * tic.e_Tmag < 13.2088)) OR ((tic.Tmag < 13.1954) AND (tic.Tmag + 2 * tic.e_Tmag > 13.181999999999999)))) AND ((((tic.logg > 4.3) AND (tic.logg - 2 * tic.e_logg < 4.38)) OR ((tic.logg < 4.3) AND (tic.logg + 2 * tic.e_logg > 4.22)))) AND ( AND ((((tic.mass > 1.14) AND (tic.mass - 2 * tic.e_mass < 1.18)) OR ((tic.mass < 1.14) AND (tic.mass + 2 * tic.e_mass > 1.0999999999999999))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC459826435
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 3324) AND (tic.Teff - 2 * tic.e_Teff < 3426.0)) OR ((tic.Teff < 3324) AND (tic.Teff + 2 * tic.e_Teff > 3222.0)))) AND ((((tic.Tmag > 10.3381) AND (tic.Tmag - 2 * tic.e_Tmag < 10.352691400000001)) OR ((tic.Tmag < 10.3381) AND (tic.Tmag + 2 * tic.e_Tmag > 10.3235086)))) AND ((((tic.logg > 5.05) AND (tic.logg - 2 * tic.e_logg < 5.1899999999999995)) OR ((tic.logg < 5.05) AND (tic.logg + 2 * tic.e_logg > 4.91)))) AND ((((tic.rad > 0.28) AND (tic.rad - 2 * tic.e_rad < 0.30000000000000004)) OR ((tic.rad < 0.28) AND (tic.rad + 2 * tic.e_rad > 0.26)))) AND ((((tic.mass > 0.27) AND (tic.mass - 2 * tic.e_mass < 0.31)) OR ((tic.mass < 0.27) AND (tic.mass + 2 * tic.e_mass > 0.23))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC471012766
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 3236) AND (tic.Teff - 2 * tic.e_Teff < 3338.0)) OR ((tic.Teff < 3236) AND (tic.Teff + 2 * tic.e_Teff > 3134.0)))) AND ((((tic.Tmag > 10.8472) AND (tic.Tmag - 2 * tic.e_Tmag < 10.859200000000001)) OR ((tic.Tmag < 10.8472) AND (tic.Tmag + 2 * tic.e_Tmag > 10.8352)))) AND ((((tic.logg > 5.09) AND (tic.logg - 2 * tic.e_logg < 5.2299999999999995)) OR ((tic.logg < 5.09) AND (tic.logg + 2 * tic.e_logg > 4.95)))) AND ((((tic.rad > 0.19) AND (tic.rad - 2 * tic.e_rad < 0.21)) OR ((tic.rad < 0.19) AND (tic.rad + 2 * tic.e_rad > 0.17)))) AND ((((tic.mass > 0.18) AND (tic.mass - 2 * tic.e_mass < 0.22)) OR ((tic.mass < 0.18) AND (tic.mass + 2 * tic.e_mass > 0.13999999999999999))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC49064384
+WHERE (tic.objType = STAR) AND ( AND ((((tic.Tmag > 9.79462) AND (tic.Tmag - 2 * tic.e_Tmag < 9.8091426)) OR ((tic.Tmag < 9.79462) AND (tic.Tmag + 2 * tic.e_Tmag > 9.7800974)))) AND ( AND ((((tic.rad > 0.43) AND (tic.rad - 2 * tic.e_rad < 0.49)) OR ((tic.rad < 0.43) AND (tic.rad + 2 * tic.e_rad > 0.37)))) AND ((((tic.mass > 0.45) AND (tic.mass - 2 * tic.e_mass < 0.55)) OR ((tic.mass < 0.45) AND (tic.mass + 2 * tic.e_mass > 0.35))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC62760824
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 0.45) AND (tic.Teff - 2 * tic.e_Teff < 0.55)) OR ((tic.Teff < 0.45) AND (tic.Teff + 2 * tic.e_Teff > 0.45)))) AND ((((tic.Tmag > 8.18436) AND (tic.Tmag - 2 * tic.e_Tmag < 8.19696)) OR ((tic.Tmag < 8.18436) AND (tic.Tmag + 2 * tic.e_Tmag > 8.171759999999999)))) AND ((((tic.logg > 4.18) AND (tic.logg - 2 * tic.e_logg < 4.239999999999999)) OR ((tic.logg < 4.18) AND (tic.logg + 2 * tic.e_logg > 4.12)))) AND ((((tic.rad > 1.46) AND (tic.rad - 2 * tic.e_rad < 1.74)) OR ((tic.rad < 1.46) AND (tic.rad + 2 * tic.e_rad > 1.18)))) AND ((((tic.mass > 1.21) AND (tic.mass - 2 * tic.e_mass < 1.77)) OR ((tic.mass < 1.21) AND (tic.mass + 2 * tic.e_mass > 0.6499999999999999))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC72506701
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 6466.27) AND (tic.Teff - 2 * tic.e_Teff < 6696.81)) OR ((tic.Teff < 6466.27) AND (tic.Teff + 2 * tic.e_Teff > 6272.67)))) AND ((((tic.Tmag > 4.0281) AND (tic.Tmag - 2 * tic.e_Tmag < 4.0457)) OR ((tic.Tmag < 4.0281) AND (tic.Tmag + 2 * tic.e_Tmag > 4.0105)))) AND ((((tic.logg > 4.25) AND (tic.logg - 2 * tic.e_logg < 4.43)) OR ((tic.logg < 4.25) AND (tic.logg + 2 * tic.e_logg > 4.11)))) AND ((((tic.rad > 1.43) AND (tic.rad - 2 * tic.e_rad < 1.5499999999999998)) OR ((tic.rad < 1.43) AND (tic.rad + 2 * tic.e_rad > 1.3299999999999998)))) AND ((((tic.mass > 1.32) AND (tic.mass - 2 * tic.e_mass < 1.8)) OR ((tic.mass < 1.32) AND (tic.mass + 2 * tic.e_mass > 0.9600000000000001))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC73312938
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 5932) AND (tic.Teff - 2 * tic.e_Teff < 5978.0)) OR ((tic.Teff < 5932) AND (tic.Teff + 2 * tic.e_Teff > 5886.0)))) AND ((((tic.Tmag > 7.6263) AND (tic.Tmag - 2 * tic.e_Tmag < 7.638299999999999)) OR ((tic.Tmag < 7.6263) AND (tic.Tmag + 2 * tic.e_Tmag > 7.6143)))) AND ((((tic.logg > 4.4) AND (tic.logg - 2 * tic.e_logg < 4.46)) OR ((tic.logg < 4.4) AND (tic.logg + 2 * tic.e_logg > 4.340000000000001)))) AND ((((tic.rad > 1.19) AND (tic.rad - 2 * tic.e_rad < 1.23)) OR ((tic.rad < 1.19) AND (tic.rad + 2 * tic.e_rad > 1.15)))) AND ((((tic.mass > 1.28) AND (tic.mass - 2 * tic.e_mass < 1.46)) OR ((tic.mass < 1.28) AND (tic.mass + 2 * tic.e_mass > 1.1))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO TIC96195878
+WHERE (tic.objType = STAR) AND ((((tic.Teff > 5017) AND (tic.Teff - 2 * tic.e_Teff < 5193.0)) OR ((tic.Teff < 5017) AND (tic.Teff + 2 * tic.e_Teff > 4841.0)))) AND ((((tic.Tmag > 8.6509) AND (tic.Tmag - 2 * tic.e_Tmag < 8.6631)) OR ((tic.Tmag < 8.6509) AND (tic.Tmag + 2 * tic.e_Tmag > 8.6387)))) AND ((((tic.logg > 4.43) AND (tic.logg - 2 * tic.e_logg < 4.75)) OR ((tic.logg < 4.43) AND (tic.logg + 2 * tic.e_logg > 4.109999999999999)))) AND ((((tic.rad > 0.73) AND (tic.rad - 2 * tic.e_rad < 0.77)) OR ((tic.rad < 0.73) AND (tic.rad + 2 * tic.e_rad > 0.69)))) AND ((((tic.mass > 0.79) AND (tic.mass - 2 * tic.e_mass < 0.87)) OR ((tic.mass < 0.79) AND (tic.mass + 2 * tic.e_mass > 0.7100000000000001))))
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
+SELECT TOP 1000 tic.ID,tic.Teff,tic.Tmag,tic.logg,tic.rad,tic.mass FROM TESS_v81 AS tic INTO 
+WHERE (tic.objType = STAR) AND ( AND ( AND ( AND ( AND (
+
